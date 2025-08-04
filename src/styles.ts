@@ -1,10 +1,9 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
-const EstiloGolbal = createGlobalStyle`
+const EstiloGlobal = createGlobalStyle`
 * {
 margin:0;
 padding:0;
-display: flexbox;
 font-family: "Inter", sans-serif;
 
 }
@@ -12,31 +11,27 @@ font-family: "Inter", sans-serif;
 body {
 padding-top: 80px;
 background-color: red;
+
+@media (max-width: 768px) {
+padding-top: 16px;
 }
+}
+
+
 `
-export default EstiloGolbal
+export default EstiloGlobal
 
 export const Container = styled.div`
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
 
-  aside {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 50px;
-  }
-
-  Title {
-    margin-bottom: 25px;
+  @media (max-width: 768px) {
+    max-width: 80%;
+    display: block;
   }
 
   img {
-    max-width: 200px;
-    border-radius: 50%;
-    box-shadow: 0 0 20px rgba(000, 0, 3);
-    margin-bottom: 25px;
+    width: 100%;
   }
 `
