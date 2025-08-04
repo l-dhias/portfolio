@@ -16,6 +16,6 @@ export const GithubSection = styled.div`
   }
 
   img {
-    height: 157px;
+    height: 158px;
   }
 `
