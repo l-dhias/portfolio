@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { FaGithub as GithubIcon } from 'react-icons/fa'
 
 export const SidebarContainer = styled.aside`
   display: flex;
@@ -9,11 +10,18 @@ export const SidebarContainer = styled.aside`
   text-align: center;
 `
 
-export const Avatar = styled.div`
-  img {
-    max-width: 200px;
-    border-radius: 50%;
-    box-shadow: 0 0 20px rgba(000, 0, 3);
-    margin-bottom: 25px;
+export const PerfilGit = styled.a`
+  text-decoration: none;
+  margin-bottom: 2px;
+`
+
+export const FaGithub = styled(GithubIcon as unknown as React.FC)`
+  color: #000;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  margin-right: 6px;
+
+  &:hover {
+    color: #6e5494;
   }
 `

@@ -1,15 +1,20 @@
 import Title from '../../components/Title'
-import { Avatar, SidebarContainer } from './styles'
+import { SidebarContainer, PerfilGit, FaGithub } from './styles'
+import Avatar from '../../components/Avatar'
+import Paragraph from '../../components/Paragraph'
 
-const Sidbar = () => (
+const Sidebar = () => (
   <SidebarContainer>
-    <Avatar>
-      <img src="https://github.com/l-dhias.png" />
-    </Avatar>
-
+    <Avatar />
     <Title fontSize={25}>Leonardo Dias</Title>
+    <PerfilGit href="https://github.com/l-dhias" target="_blank">
+      <Paragraph tipo="secundario" fontSize={16}>
+        <FaGithub />
+        GitHub l-dhias
+      </Paragraph>
+    </PerfilGit>
     <Title fontSize={13}>Desenvolvedor Front-End</Title>
   </SidebarContainer>
 )
 
-export default Sidbar
+export default Sidebar
