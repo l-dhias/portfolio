@@ -19,8 +19,14 @@ const Sobre = () => (
       que tornam uma interface realmente boa.
     </Paragraph>
     <GithubSection>
-      <img src="https://github-readme-stats.vercel.app/api?username=l-dhias&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=l-dhias&layout=compact&langs_count=7&theme=dracula" />
+      <img
+        src="https://github-readme-stats.vercel.app/api?username=l-dhias&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"
+        alt="Estatísticas do GitHub"
+      />
+      <img
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=l-dhias&layout=compact&langs_count=7&theme=dracula"
+        alt="Linguagens mais usadas"
+      />
     </GithubSection>
   </section>
 )
