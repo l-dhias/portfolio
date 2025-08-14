@@ -1,3 +1,4 @@
+import Footer from './containers/Footer'
 import Projetos from './containers/Projetos'
 import Sidbar from './containers/Sidebar'
 import Sobre from './containers/Sobre'
@@ -13,6 +14,7 @@ function App() {
           <Sobre />
           <Projetos />
         </main>
+        <Footer />
       </Container>
     </>
   )

@@ -1,5 +1,5 @@
 import Title from '../../components/Title'
-import Projeto from '../../components/Projeto'
+import { ProjetoIMC, ProjetoTodoList } from '../../components/Projeto'
 import { Lista } from './styles'
 
 const Projetos = () => (
@@ -7,6 +7,12 @@ const Projetos = () => (
     <Title fontSize={16}>Projetos</Title>
     <Lista>
       <li>
+        <ProjetoIMC></ProjetoIMC>
+      </li>
+      <li>
+        <ProjetoTodoList></ProjetoTodoList>
+      </li>
+      {/* <li>
         <Projeto></Projeto>
       </li>
       <li>
@@ -14,16 +20,7 @@ const Projetos = () => (
       </li>
       <li>
         <Projeto></Projeto>
-      </li>
-      <li>
-        <Projeto></Projeto>
-      </li>
-      <li>
-        <Projeto></Projeto>
-      </li>
-      <li>
-        <Projeto></Projeto>
-      </li>
+      </li> */}
     </Lista>
   </section>
 )
