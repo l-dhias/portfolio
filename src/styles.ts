@@ -33,7 +33,9 @@ export const Container = styled.div`
   column-gap: 20px;
 
   @media (max-width: 768px) {
-    max-width: 80%;
     display: block;
+    width: 80%;
+    padding: 0 16px;
+    box-sizing: border-box;
   }
 `
