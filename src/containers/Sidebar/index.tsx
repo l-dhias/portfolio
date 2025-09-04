@@ -1,20 +1,46 @@
-import Title from '../../components/Title'
-import { SidebarContainer, PerfilGit, FaGithub } from './styles'
-import Avatar from '../../components/Avatar'
-import Paragraph from '../../components/Paragraph'
+import React from 'react'
 
-const Sidebar = () => (
-  <SidebarContainer>
-    <Avatar />
-    <Title fontSize={25}>Leonardo Dias</Title>
-    <PerfilGit href="https://github.com/l-dhias" target="_blank">
-      <Paragraph tipo="secundario" fontSize={16}>
-        <FaGithub />
-        GitHub l-dhias
-      </Paragraph>
-    </PerfilGit>
-    <Title fontSize={13}>Desenvolvedor Front-End</Title>
-  </SidebarContainer>
+import { Paragrafo } from '../../components/Paragrafo'
+import { Titulo } from '../../components/Titulo'
+
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+
+import { Descricao, SidebarContainer, ListaSocial, ListaNav } from './styles'
+
+export const Sidebar = () => (
+  <aside>
+    <SidebarContainer>
+      <Titulo fontSize={48}> Leonardo Dias</Titulo>
+      <Paragrafo tipo="secundario" fontSize={20}>
+        Engenheiro Front-End
+      </Paragrafo>
+      <Descricao tipo="primario">
+        Eu crio experiências digitais acessíveis e perfeitas em pixels para a
+        web.
+      </Descricao>
+      <nav>
+        <ul>
+          <ListaNav>sobre</ListaNav>
+          <ListaNav>Experiências</ListaNav>
+          <ListaNav>Projetos</ListaNav>
+        </ul>
+      </nav>
+      <ListaSocial>
+        <li>
+          <a href="https://github.com/l-dhias" target="_blank" rel="noreferrer">
+            <FaGithub size={28} />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/leonardo-dias-desenvolvedor-web-front-end/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin size={28} />
+          </a>
+        </li>
+      </ListaSocial>
+    </SidebarContainer>
+  </aside>
 )
-
-export default Sidebar

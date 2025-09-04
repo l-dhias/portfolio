@@ -1,29 +1,23 @@
-import Title from '../../components/Title'
-import { ProjetoIMC, ProjetoTodoList } from '../../components/Projeto'
+import { Titulo } from '../../components/Titulo'
+import { Projeto } from '../../components/Projeto'
 import { Lista } from './styles'
 
-const Projetos = () => (
+export const Projetos = () => (
   <section>
-    <Title fontSize={16}>Projetos</Title>
+    <Titulo fontSize={16}>Projetos</Titulo>
     <Lista>
       <li>
-        <ProjetoIMC></ProjetoIMC>
+        <Projeto />
       </li>
       <li>
-        <ProjetoTodoList></ProjetoTodoList>
-      </li>
-      {/* <li>
-        <Projeto></Projeto>
+        <Projeto />
       </li>
       <li>
-        <Projeto></Projeto>
+        <Projeto />
       </li>
       <li>
-        <Projeto></Projeto>
-      </li> */}
+        <Projeto />
+      </li>
     </Lista>
   </section>
 )
-export default Projetos
-
-//Para adicionar mais projetos só copiar a tag 'li'

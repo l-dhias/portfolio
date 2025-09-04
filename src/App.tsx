@@ -1,7 +1,7 @@
-import Footer from './containers/Footer'
-import Projetos from './containers/Projetos'
-import Sidbar from './containers/Sidebar'
-import Sobre from './containers/Sobre'
+import { Experiencias } from './containers/Experiencias'
+import { Projetos } from './containers/Projetos'
+import { Sidebar } from './containers/Sidebar'
+import { Sobre } from './containers/Sobre'
 import EstiloGlobal, { Container } from './styles'
 
 function App() {
@@ -9,12 +9,12 @@ function App() {
     <>
       <EstiloGlobal />
       <Container>
-        <Sidbar />
+        <Sidebar />
         <main>
           <Sobre />
+          <Experiencias />
           <Projetos />
         </main>
-        <Footer />
       </Container>
     </>
   )

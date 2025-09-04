@@ -9,8 +9,10 @@ list-style: none;
 }
 
 body {
-padding-top: 80px;
-background: linear-gradient(to bottom, #09203f, #537895 );
+padding-top: 120px;
+padding-bottom:80px;
+background:  #0f172a;
+
 
 @media (max-width: 768px) {
 padding-top: 16px;
@@ -24,14 +26,14 @@ export default EstiloGlobal
 export const Container = styled.div`
   max-width: 1024px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
+  margin-left: 200px;
+  display: grid;
+  grid-template-columns: 560px 1fr;
+  column-gap: 20px;
 
   @media (max-width: 768px) {
     max-width: 80%;
     display: block;
-  }
-
-  img {
-    width: 100%;
   }
 `

@@ -1,33 +1,23 @@
-import Title from '../../components/Title'
-import Paragraph from '../../components/Paragraph'
-import { GithubSection } from './styles'
-
-const Sobre = () => (
-  <section>
-    <Title fontSize={16}>Sobre mim</Title>
-    <Paragraph tipo="secundario">
-      Sou Leonardo, desenvolvedor front-end júnior, apaixonado por transformar
-      ideias em experiências digitais que fazem sentido, tanto visual quanto
-      funcionalmente. Para mim, o front-end vai muito além de escrever linhas de
-      código: é traduzir conceitos em interfaces vivas, acessíveis e intuitivas.
-      Tenho como base as tecnologias fundamentais da web (HTML, CSS e
-      JavaScript), mas meu verdadeiro diferencial está na forma como enxergo
-      cada projeto como uma oportunidade de aprender, evoluir e contribuir de
-      forma criativa. Valorizo organização, clareza e propósito em tudo o que
-      faço. Estou em constante aprendizado, não apenas sobre ferramentas ou
-      frameworks, mas também sobre pessoas, usabilidade e os pequenos detalhes
-      que tornam uma interface realmente boa.
-    </Paragraph>
-    <GithubSection>
-      <img
-        src="https://github-readme-stats.vercel.app/api?username=l-dhias&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"
-        alt="Estatísticas do GitHub"
-      />
-      <img
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=l-dhias&layout=compact&langs_count=7&theme=dracula"
-        alt="Linguagens mais usadas"
-      />
-    </GithubSection>
-  </section>
+import { Paragrafo } from '../../components/Paragrafo'
+import { SobreM } from './styles'
+export const Sobre = () => (
+  <SobreM>
+    <Paragrafo fontSize={20}>
+      Me chamo Leonardo Antonio Dias, tenho 25 anos e sou natural de São Bento
+      do Sapucaí, interior de São Paulo. Sempre fui movido pela curiosidade e
+      pela vontade de entender como as coisas funcionam e foi essa inquietação
+      que me levou ao universo do desenvolvimento front-end. Concluí o ensino
+      médio na Escola Estadual Prof°. Figueiredo Brandão e, atualmente, estou me
+      especializando como Engenheiro Front-end pela EBAC (Escola Britânica de
+      Artes Criativas e Tecnologia), onde venho desenvolvendo uma base sólida em
+      tecnologias web, design de interfaces e boas práticas de desenvolvimento.
+      Minha paixão está em dar vida a ideias por meio do código criando
+      interfaces que sejam bonitas, funcionais e acessíveis. Como desenvolvedor
+      front-end júnior, busco constantemente evoluir, seja aprendendo novas
+      ferramentas, colaborando em projetos ou explorando soluções criativas para
+      os desafios do dia a dia. Acredito que o desenvolvimento é uma ponte entre
+      pessoas e tecnologia, e quero fazer parte dessa construção com
+      responsabilidade, dedicação e propósito.
+    </Paragrafo>
+  </SobreM>
 )
-export default Sobre
