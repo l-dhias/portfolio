@@ -5,6 +5,13 @@ export const Descricao = styled(P)`
   margin-top: 24px;
   margin-bottom: 40px;
 `
+
+export const Menu = styled.nav`
+  display flex
+  align-items: center;
+  justify-content: center;
+`
+
 export const SidebarContainer = styled.div`
   position: sticky;
   top: 80px;
@@ -29,7 +36,7 @@ export const ListaNav = styled.li`
 export const ListaSocial = styled.ul`
   display: flex;
   gap: 16px;
-  padding: 360px 0 0;
+  padding: 50px 0 0;
   margin: 16px 0;
   list-style: none;
 

@@ -5,7 +5,13 @@ import { Titulo } from '../../components/Titulo'
 
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
-import { Descricao, SidebarContainer, ListaSocial, ListaNav } from './styles'
+import {
+  Descricao,
+  Menu,
+  SidebarContainer,
+  ListaSocial,
+  ListaNav,
+} from './styles'
 
 export const Sidebar = () => (
   <aside>
@@ -18,13 +24,13 @@ export const Sidebar = () => (
         Eu crio experiências digitais acessíveis e perfeitas em pixels para a
         web.
       </Descricao>
-      <nav>
+      <Menu>
         <ul>
           <ListaNav>sobre</ListaNav>
           <ListaNav>Experiências</ListaNav>
           <ListaNav>Projetos</ListaNav>
         </ul>
-      </nav>
+      </Menu>
       <ListaSocial>
         <li>
           <a href="https://github.com/l-dhias" target="_blank" rel="noreferrer">

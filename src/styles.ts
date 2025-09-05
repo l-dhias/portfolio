@@ -26,16 +26,13 @@ export default EstiloGlobal
 export const Container = styled.div`
   max-width: 1024px;
   width: 100%;
-  margin: 0;
-  margin-left: 200px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 560px 1fr;
-  column-gap: 20px;
+  grid-template-columns: 360px auto;
+  column-gap: 50px;
 
   @media (max-width: 768px) {
-    display: block;
     width: 80%;
-    padding: 0 16px;
-    box-sizing: border-box;
+    display: block;
   }
 `
