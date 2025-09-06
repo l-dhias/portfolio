@@ -7,75 +7,117 @@ export const HTML = () => (
     <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
   </ContainerSkill>
 )
-export const css = () => (
+export const CSS = () => (
   <ContainerSkill>
-    <Titulo>css</Titulo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+    <Titulo>CSS</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
   </ContainerSkill>
 )
-export const less = () => (
+export const Less = () => (
   <ContainerSkill>
-    <Titulo>less</Titulo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+    <Titulo>Less</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/less/less-plain-wordmark.svg" />
   </ContainerSkill>
 )
-export const sass = () => (
+export const Sass = () => (
   <ContainerSkill>
-    <Titulo>sass</Titulo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+    <Titulo>Sass</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
   </ContainerSkill>
 )
-export const styledComponents = () => (
+export const StyledComponents = () => (
   <ContainerSkill>
-    <Titulo>styledComponents</Titulo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+    <Titulo>StyledComponents</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/styledcomponents/styledcomponents-plain.svg" />
   </ContainerSkill>
 )
 export const Gulp = () => (
   <ContainerSkill>
     <Titulo>Gulp</Titulo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gulp/gulp-plain.svg" />
   </ContainerSkill>
 )
-export const grunt = () => (
+export const Grunt = () => (
   <ContainerSkill>
-    <Titulo>grunt</Titulo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+    <Titulo>Grunt</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grunt/grunt-line.svg" />
   </ContainerSkill>
 )
-export const parcel = () => (
+export const Figma = () => (
   <ContainerSkill>
-    <Titulo>parcel</Titulo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+    <Titulo>Figma</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
   </ContainerSkill>
 )
-export const babel = () => (
+export const Babel = () => (
   <ContainerSkill>
-    <Titulo>babel</Titulo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+    <Titulo>Babel</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/babel/babel-plain.svg" />
   </ContainerSkill>
 )
-export const bootstrap = () => (
+export const JQuery = () => (
   <ContainerSkill>
-    <Titulo>bootstrap</Titulo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+    <Titulo>JQuery</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" />
   </ContainerSkill>
 )
-export const javascript = () => (
+export const Bootstrap = () => (
   <ContainerSkill>
-    <Titulo>bootstrap</Titulo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+    <Titulo>Bootstrap</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
   </ContainerSkill>
 )
-export const typescript = () => (
+export const JavaScript = () => (
   <ContainerSkill>
-    <Titulo>bootstrap</Titulo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+    <Titulo>JavaScript</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
   </ContainerSkill>
 )
-export const node = () => (
+export const TypeScript = () => (
   <ContainerSkill>
-    <Titulo>bootstrap</Titulo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+    <Titulo>TypeScript</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
+  </ContainerSkill>
+)
+export const NodeJs = () => (
+  <ContainerSkill>
+    <Titulo>NodeJs</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
+  </ContainerSkill>
+)
+export const Redux = () => (
+  <ContainerSkill>
+    <Titulo>Redux</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" />
+  </ContainerSkill>
+)
+export const React = () => (
+  <ContainerSkill>
+    <Titulo>React</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+  </ContainerSkill>
+)
+export const Vue = () => (
+  <ContainerSkill>
+    <Titulo>Vue</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
+  </ContainerSkill>
+)
+export const VsCode = () => (
+  <ContainerSkill>
+    <Titulo>VsCode</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+  </ContainerSkill>
+)
+export const GitHub = () => (
+  <ContainerSkill>
+    <Titulo>GitHub</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+  </ContainerSkill>
+)
+export const Git = () => (
+  <ContainerSkill>
+    <Titulo>Git</Titulo>
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
   </ContainerSkill>
 )

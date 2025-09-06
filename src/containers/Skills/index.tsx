@@ -1,4 +1,25 @@
-import { HTML } from '../../components/Skill'
+import {
+  HTML,
+  CSS,
+  Less,
+  Sass,
+  StyledComponents,
+  Gulp,
+  Grunt,
+  Figma,
+  Babel,
+  JQuery,
+  Bootstrap,
+  JavaScript,
+  TypeScript,
+  NodeJs,
+  Redux,
+  React,
+  Vue,
+  VsCode,
+  GitHub,
+  Git,
+} from '../../components/Skill'
 import { ListaSkill } from './styles'
 
 export const Skills = () => (
@@ -9,37 +30,61 @@ export const Skills = () => (
         <HTML />
       </li>
       <li>
-        <HTML />
+        <CSS />
       </li>
       <li>
-        <HTML />
+        <Less />
       </li>
       <li>
-        <HTML />
+        <Sass />
       </li>
       <li>
-        <HTML />
+        <StyledComponents />
       </li>
       <li>
-        <HTML />
+        <Gulp />
       </li>
       <li>
-        <HTML />
+        <Grunt />
       </li>
       <li>
-        <HTML />
+        <Figma />
       </li>
       <li>
-        <HTML />
+        <Babel />
       </li>
       <li>
-        <HTML />
+        <JQuery />
       </li>
       <li>
-        <HTML />
+        <Bootstrap />
       </li>
       <li>
-        <HTML />
+        <JavaScript />
+      </li>
+      <li>
+        <TypeScript />
+      </li>
+      <li>
+        <NodeJs />
+      </li>
+      <li>
+        <Redux />
+      </li>
+      <li>
+        <React />
+      </li>
+      <li>
+        <Vue />
+      </li>
+      <li>
+        <VsCode />
+      </li>
+      <li>
+        <GitHub />
+      </li>
+      <li>
+        <Git />
       </li>
     </ListaSkill>
   </section>
