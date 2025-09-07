@@ -13,7 +13,10 @@ export const ContainerSkill = styled.div`
   height: 120px;
 
   @media (max-width: 768px) {
-display: flex;
+    padding: 22px 22px;
+    width: 90px;
+    height: 90px;
+  }
 `
 
 export const SkillImg = styled.img`
