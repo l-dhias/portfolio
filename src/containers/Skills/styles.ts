@@ -9,15 +9,7 @@ export const ListaSkill = styled.ul`
   @media (max-width: 768px) {
     width: 80px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 10px;
-  }
-
-  @media (max-width: 320px) {
-    width: 80px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
     row-gap: 10px;
   }
 `
