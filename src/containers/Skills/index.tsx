@@ -21,10 +21,11 @@ import {
   Git,
 } from '../../components/Skill'
 import { ListaSkill } from './styles'
+import { Titulo } from '../../components/Titulo'
 
 export const Skills = () => (
   <section>
-    <title>Skills</title>
+    <Titulo fontSize={16}>Skills</Titulo>
     <ListaSkill>
       <li>
         <HTML />

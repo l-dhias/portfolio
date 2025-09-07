@@ -7,6 +7,7 @@ export const HTML = () => (
     <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
   </ContainerSkill>
 )
+
 export const CSS = () => (
   <ContainerSkill>
     <Titulo>CSS</Titulo>

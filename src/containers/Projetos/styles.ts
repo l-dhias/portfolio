@@ -5,7 +5,7 @@ export const Lista = styled.ul`
   margin-bottom: 40px;
 
   @media (max-width: 768px) {
-    grid-tempalate-colunms: 1fr;
-    colunm-gap: 0;
+    grid-template-columns: 1fr;
+    column-gap: 0;
   }
 `
