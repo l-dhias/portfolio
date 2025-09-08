@@ -6,6 +6,7 @@ export const ListaSkill = styled.ul`
   column-gap: 26px;
   row-gap: 16px;
   margin: 0 auto;
+  justify-items: center;
 
   @media (max-width: 768px) {
     width: 80%;
