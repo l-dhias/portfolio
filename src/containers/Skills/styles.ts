@@ -4,6 +4,7 @@ export const ConatinerSkill = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 16px;
 `
 
 export const ListaSkill = styled.ul`
