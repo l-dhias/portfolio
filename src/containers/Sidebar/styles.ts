@@ -18,6 +18,7 @@ export const SidebarContainer = styled.div`
   left: 0;
 
   @media (max-width: 768px) {
+  display flex
     margin-bottom: 80px;
     text-align: center;
   }
