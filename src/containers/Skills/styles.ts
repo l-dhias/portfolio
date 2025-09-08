@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ConatinerSkill = styled.section`
-  display: fle;
+  display: flex;
   justify-content: center;
   align-items: center;
 `
