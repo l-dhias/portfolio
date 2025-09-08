@@ -20,73 +20,75 @@ import {
   GitHub,
   Git,
 } from '../../components/Skill'
-import { ListaSkill } from './styles'
+import { ConatinerSkill, ListaSkill } from './styles'
 import { Titulo } from '../../components/Titulo'
 
 export const Skills = () => (
-  <section>
+  <>
     <Titulo fontSize={16}>Skills</Titulo>
-    <ListaSkill>
-      <li>
-        <HTML />
-      </li>
-      <li>
-        <CSS />
-      </li>
-      <li>
-        <Less />
-      </li>
-      <li>
-        <Sass />
-      </li>
-      <li>
-        <StyledComponents />
-      </li>
-      <li>
-        <Gulp />
-      </li>
-      <li>
-        <Grunt />
-      </li>
-      <li>
-        <Figma />
-      </li>
-      <li>
-        <Babel />
-      </li>
-      <li>
-        <JQuery />
-      </li>
-      <li>
-        <Bootstrap />
-      </li>
-      <li>
-        <JavaScript />
-      </li>
-      <li>
-        <TypeScript />
-      </li>
-      <li>
-        <NodeJs />
-      </li>
-      <li>
-        <Redux />
-      </li>
-      <li>
-        <React />
-      </li>
-      <li>
-        <Vue />
-      </li>
-      <li>
-        <VsCode />
-      </li>
-      <li>
-        <GitHub />
-      </li>
-      <li>
-        <Git />
-      </li>
-    </ListaSkill>
-  </section>
+    <ConatinerSkill>
+      <ListaSkill>
+        <li>
+          <HTML />
+        </li>
+        <li>
+          <CSS />
+        </li>
+        <li>
+          <Less />
+        </li>
+        <li>
+          <Sass />
+        </li>
+        <li>
+          <StyledComponents />
+        </li>
+        <li>
+          <Gulp />
+        </li>
+        <li>
+          <Grunt />
+        </li>
+        <li>
+          <Figma />
+        </li>
+        <li>
+          <Babel />
+        </li>
+        <li>
+          <JQuery />
+        </li>
+        <li>
+          <Bootstrap />
+        </li>
+        <li>
+          <JavaScript />
+        </li>
+        <li>
+          <TypeScript />
+        </li>
+        <li>
+          <NodeJs />
+        </li>
+        <li>
+          <Redux />
+        </li>
+        <li>
+          <React />
+        </li>
+        <li>
+          <Vue />
+        </li>
+        <li>
+          <VsCode />
+        </li>
+        <li>
+          <GitHub />
+        </li>
+        <li>
+          <Git />
+        </li>
+      </ListaSkill>
+    </ConatinerSkill>
+  </>
 )
