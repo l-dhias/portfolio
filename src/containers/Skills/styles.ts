@@ -5,6 +5,7 @@ export const ListaSkill = styled.ul`
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 26px;
   row-gap: 16px;
+  margin: 0 auto;
 
   @media (max-width: 768px) {
     width: 80%;
