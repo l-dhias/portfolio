@@ -13,4 +13,10 @@ export const P = styled.p<Props>`
     font-size: 18px;
     line-height: 22px;
   }
+
+  @media (max-width: 320px) {
+    display: flex;
+    font-size: 16px;
+    line-height: 18px;
+  }
 `
