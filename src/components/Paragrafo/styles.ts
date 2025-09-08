@@ -14,7 +14,7 @@ export const P = styled.p<Props>`
     line-height: 22px;
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 480px) {
     display: flex;
     font-size: 16px;
     line-height: 18px;
