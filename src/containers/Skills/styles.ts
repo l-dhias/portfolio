@@ -6,7 +6,11 @@ export const ListaSkill = styled.ul`
   column-gap: 26px;
   row-gap: 16px;
   margin: 0 auto;
-  justify-items: center;
+  > li {
+    display: flex; /* transforma cada li em flex */
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente */
+  }
 
   @media (max-width: 768px) {
     width: 80%;
@@ -22,5 +26,8 @@ export const ListaSkill = styled.ul`
     grid-template-columns: 1fr 1fr;
     column-gap: 6px;
     row-gap: 8px;
+    > li {
+      justify-content: center;
+    }
   }
 `
