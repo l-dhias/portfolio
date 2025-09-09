@@ -28,6 +28,7 @@ export const ListaEx = styled.ul`
   gap: 8px;
   padding: 0;
   margin: 0;
+  margin-top: 32px;
   color: #4cc3d8ff;
 `
 export const ListaLi = styled.li`

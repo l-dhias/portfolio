@@ -1,11 +1,21 @@
 import styled from 'styled-components'
+import { Titulo } from '../Titulo'
+
+export const TituloProjeto = styled(Titulo)`
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: #2b6bb0;
+`
 
 export const Card = styled.div`
   padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 `
 
 export const LinkBotao = styled.a`
-  display: inline-block;
+  display: flex;
   width: 100%;
   padding: 8px 16px;
   border: 2px solid transparent;
@@ -19,4 +29,7 @@ export const LinkBotao = styled.a`
   &:hover {
     background-color: #2b6bb01e;
   }
+`
+export const Ilustracao = styled.img`
+  max-width: 240px;
 `

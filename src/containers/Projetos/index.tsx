@@ -1,5 +1,5 @@
 import { Titulo } from '../../components/Titulo'
-import { Projeto } from '../../components/Projeto'
+import { ProjetoTodoList, Projeto } from '../../components/Projeto'
 import { Lista } from './styles'
 
 export const Projetos = () => (
@@ -7,7 +7,7 @@ export const Projetos = () => (
     <Titulo fontSize={16}>Projetos</Titulo>
     <Lista>
       <li>
-        <Projeto />
+        <ProjetoTodoList />
       </li>
       <li>
         <Projeto />
