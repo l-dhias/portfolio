@@ -4,6 +4,11 @@ export const ConatinerSkill = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 export const ListaSkill = styled.ul`
@@ -11,6 +16,7 @@ export const ListaSkill = styled.ul`
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 26px;
   row-gap: 16px;
+  justify-content: center;
 
   @media (max-width: 768px) {
     width: 80%;
