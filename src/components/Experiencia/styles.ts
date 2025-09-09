@@ -12,7 +12,6 @@ export const LinkBotaoEx = styled.a`
   border: 2px solid transparent;
   border-radius: 8px;
   text-decoration: none;
-  font-weight: bold;
   transition:
     background 0.3s,
     border-color 0.3s;
