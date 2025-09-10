@@ -8,6 +8,10 @@ font-family: "Inter", sans-serif;
 list-style: none;
 }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
 body {
 padding-top: 120px;
 padding-bottom:80px;

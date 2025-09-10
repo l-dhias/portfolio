@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { Paragrafo } from '../../components/Paragrafo'
 import { Titulo } from '../../components/Titulo'
 
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
@@ -11,25 +10,33 @@ import {
   SidebarContainer,
   ListaSocial,
   ListaNav,
+  NavItem,
 } from './styles'
 
 export const Sidebar = () => (
   <aside>
     <SidebarContainer>
       <Titulo fontSize={48}> Leonardo Dias</Titulo>
-      <Paragrafo tipo="secundario" fontSize={20}>
+      <Descricao tipo="secundario" fontSize={20}>
         Engenheiro Front-End
-      </Paragrafo>
+      </Descricao>
       <Descricao tipo="primario">
         Eu crio experiências digitais acessíveis e perfeitas em pixels para a
         web.
       </Descricao>
       <Menu>
-        <ul>
-          <ListaNav>sobre</ListaNav>
-          <ListaNav>Experiências</ListaNav>
-          <ListaNav>Projetos</ListaNav>
-        </ul>
+        <ListaNav>
+          <NavItem href="#sobre">Sobre</NavItem>
+        </ListaNav>
+        <ListaNav>
+          <NavItem href="#skills">Habilidades</NavItem>
+        </ListaNav>
+        <ListaNav>
+          <NavItem href="#experince">Experiência</NavItem>
+        </ListaNav>
+        <ListaNav>
+          <NavItem href="#projects">Projetos</NavItem>
+        </ListaNav>
       </Menu>
       <ListaSocial>
         <li>

@@ -3,7 +3,7 @@ import { ProjetoTodoList, Projeto } from '../../components/Projeto'
 import { Lista } from './styles'
 
 export const Projetos = () => (
-  <section>
+  <section id="projects">
     <Titulo fontSize={16}>Projetos</Titulo>
     <Lista>
       <li>
