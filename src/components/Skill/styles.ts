@@ -10,6 +10,11 @@ export const ContainerSkill = styled.div`
   border-radius: 16px 0;
   width: 120px;
   height: 120px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 
   @media (max-width: 768px) {
     padding: 10px 10px;

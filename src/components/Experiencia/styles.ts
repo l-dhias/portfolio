@@ -4,6 +4,17 @@ export const CardEx = styled.div`
   padding: 16px;
   display: flex;
   justify-content: center;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 768px) {
+    padding: 10px 10px;
+    width: 90px;
+    height: 90px;
+  }
 `
 export const LinkBotaoEx = styled.a`
   display: inline-block;

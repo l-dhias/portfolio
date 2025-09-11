@@ -34,6 +34,17 @@ export const SidebarContainer = styled.div`
 
 export const ListaNav = styled.li`
   margin-top: 30px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  @media (max-width: 768px) {
+    padding: 10px 10px;
+    width: 90px;
+    height: 90px;
+  }
 `
 export const NavItem = styled.a`
   font-size: 18px;
