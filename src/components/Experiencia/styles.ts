@@ -11,13 +11,13 @@ export const CardEx = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding: 10px 10px;
-    width: 90px;
-    height: 90px;
+    display: block;
+    padding: 8px;
+    width: 80%;
   }
 `
 export const LinkBotaoEx = styled.a`
-  display: inline-block;
+  display: block;
   width: 100%;
   padding: 8px 16px;
   border: 2px solid transparent;
