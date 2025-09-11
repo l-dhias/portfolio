@@ -34,11 +34,11 @@ export const LinkBotao = styled.a`
   }
 `
 export const Ilustracao = styled.img`
-  max-width: 240px;
+  max-width: 80px;
 
   @media (max-width: 768px) {
-    max-width: 100px;
     display: inline-block;
+    max-width: 100px;
     padding: 8px 8px;
   }
 `

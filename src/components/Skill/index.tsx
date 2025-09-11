@@ -54,7 +54,7 @@ export const Figma = () => (
 export const Babel = () => (
   <ContainerSkill>
     <Paragrafo tipo="secundario">Babel</Paragrafo>
-    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/babel/babel-plain.svg" />
+    <SkillImg src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/babel/babel-original.svg" />
   </ContainerSkill>
 )
 export const JQuery = () => (
