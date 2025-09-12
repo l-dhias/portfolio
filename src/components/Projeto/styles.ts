@@ -10,7 +10,7 @@ export const Card = styled.div`
   display: flex;
   padding: 16px;
   flex-direction: column; /* um embaixo do outro */
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   align-items: center;
   justify-content: center;
   gap: 32px; /* espaço entre os cards */
@@ -29,6 +29,7 @@ export const Card = styled.div`
 
   @media (max-width: 768px) {
     display: flex;
+    margin-bottom: 80px;
     flex-direction: column;
     padding: 12px;
     width: 80%;
@@ -38,7 +39,7 @@ export const Card = styled.div`
 
 export const LinkBotao = styled.a`
   display: inline-block;
-  padding: 8px 16px;
+  padding: 8px 10px;
   border: 2px solid transparent;
   border-radius: 8px;
   text-decoration: none;
