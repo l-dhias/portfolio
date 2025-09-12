@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const CardEx = styled.div`
   padding: 16px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
   transition: transform 0.3s ease;

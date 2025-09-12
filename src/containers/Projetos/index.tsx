@@ -4,7 +4,7 @@ import { Lista } from './styles'
 
 export const Projetos = () => (
   <section id="projects">
-    <Titulo fontSize={16}>Projetos</Titulo>
+    <Titulo fontSize={30}>Projetos</Titulo>
     <Lista>
       <li>
         <ProjetoTodoList />

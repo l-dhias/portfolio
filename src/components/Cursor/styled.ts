@@ -15,4 +15,8 @@ export const CursorDiv = styled.div<{ x: number; y: number }>`
   transform: ${({ x, y }) => `translate(${x}px, ${y}px) translate(-50%, -50%)`};
   transition: transform none;
   z-index: 999;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `

@@ -1,8 +1,9 @@
 import { Paragrafo } from '../../components/Paragrafo'
-import { SobreM } from './styles'
+import { SobreM, SobreTitulo } from './styles'
 export const Sobre = () => (
   <section id="sobre">
     <SobreM>
+      <SobreTitulo>sobre</SobreTitulo>
       <Paragrafo fontSize={20}>
         Me chamo Leonardo Antonio Dias, tenho 25 anos e sou natural de São Bento
         do Sapucaí, interior de São Paulo. Sempre fui movido pela curiosidade e

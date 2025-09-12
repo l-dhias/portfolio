@@ -25,7 +25,7 @@ import { Titulo } from '../../components/Titulo'
 
 export const Skills = () => (
   <>
-    <Titulo fontSize={16}>Skills</Titulo>
+    <Titulo fontSize={30}>Skills</Titulo>
     <ConatinerSkill id="skills">
       <ListaSkill>
         <li>

@@ -4,7 +4,7 @@ import { SectionExpe } from './styles'
 
 export const Experiencias = () => (
   <SectionExpe id="experince">
-    <Titulo fontSize={16}>Experiência</Titulo>
+    <Titulo fontSize={30}>Experiência</Titulo>
     <ul>
       <li>
         <Experiencia />

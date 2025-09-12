@@ -11,22 +11,21 @@ export const Descricao = styled(P)`
 `
 
 export const Menu = styled.nav`
-  display flex
   align-items: center;
   justify-content: center;
 
   @media (max-width: 768px) {
-    display:none;
+    display: none;
   }
 `
 
 export const SidebarContainer = styled.div`
   position: sticky;
-  top: 80px;
+  top: 120px;
   left: 0;
 
   @media (max-width: 768px) {
-    padding-top: 40px;
+    padding-top: 80px;
     margin-bottom: 80px;
     text-align: center;
   }
