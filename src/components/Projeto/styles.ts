@@ -9,9 +9,12 @@ export const TituloProjeto = styled(Titulo)`
 export const Card = styled.div`
   display: flex;
   padding: 16px;
+  flex-direction: column; /* um embaixo do outro */
   margin-bottom: 40px;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  gap: 32px; /* espaço entre os cards */
+  margin: 0 auto; /* centraliza o container */
   border: 2px solid transparent;
   border-radius: 8px;
   transition:
