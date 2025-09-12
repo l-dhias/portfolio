@@ -29,7 +29,7 @@ export const Card = styled.div`
 
   @media (max-width: 768px) {
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     flex-direction: column;
     padding: 12px;
     width: 80%;
