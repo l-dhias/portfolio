@@ -1,5 +1,5 @@
 import { Titulo } from '../../components/Titulo'
-import { ProjetoTodoList, Projeto } from '../../components/Projeto'
+import { ProjetoTodoList, ProjetoCalcIMC } from '../../components/Projeto'
 import { Lista } from './styles'
 
 export const Projetos = () => (
@@ -10,13 +10,7 @@ export const Projetos = () => (
         <ProjetoTodoList />
       </li>
       <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
+        <ProjetoCalcIMC />
       </li>
     </Lista>
   </section>

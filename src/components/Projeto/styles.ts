@@ -40,13 +40,3 @@ export const LinkBotao = styled.a`
   border-radius: 8px;
   text-decoration: none;
 `
-export const Ilustracao = styled.img`
-  max-width: 120px;
-  border-radius: 8px;
-
-  @media (max-width: 768px) {
-    width: 80%; // ocupa 80% do card
-    max-width: 200px; // limita em telas maiores
-    height: auto;
-  }
-`
