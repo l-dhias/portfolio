@@ -46,7 +46,7 @@ export const ListaNav = styled.li`
   }
 `
 export const NavItem = styled.a`
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
   color: #94a3b8;
   cursor: pointer;

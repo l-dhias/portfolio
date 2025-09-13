@@ -16,13 +16,12 @@ import {
 export const Sidebar = () => (
   <aside>
     <SidebarContainer>
-      <Titulo fontSize={48}> Leonardo Dias</Titulo>
-      <Descricao tipo="secundario" fontSize={20}>
+      <Titulo fontSize={50}> Leonardo Dias</Titulo>
+      <Descricao tipo="secundario" fontSize={24}>
         Engenheiro Front-End
       </Descricao>
-      <Descricao tipo="primario">
-        Eu crio experiências digitais acessíveis e perfeitas em pixels para a
-        web.
+      <Descricao tipo="primario" fontSize={24}>
+        Eu crio experiências digitais acessíveis e perfeitas para a web.
       </Descricao>
       <Menu>
         <ListaNav>

@@ -4,7 +4,7 @@ export const Sobre = () => (
   <section id="sobre">
     <SobreM>
       <SobreTitulo>Sobre</SobreTitulo>
-      <Paragrafo fontSize={20}>
+      <Paragrafo fontSize={22}>
         Me chamo Leonardo Antonio Dias, tenho 25 anos e sou natural de São Bento
         do Sapucaí, interior de São Paulo. Sempre fui movido pela curiosidade e
         pela vontade de entender como as coisas funcionam e foi essa inquietação

@@ -5,8 +5,8 @@ import { TituloProjeto, Card, LinkBotao } from './styles'
 export const ProjetoTodoList = () => (
   <Card>
     <LinkBotao href="https://todo-vue-delta-umber.vercel.app/" target="_blank">
-      <TituloProjeto>Lista de tarefas</TituloProjeto>
-      <Paragrafo>
+      <TituloProjeto fontSize={24}>Lista de tarefas</TituloProjeto>
+      <Paragrafo fontSize={18}>
         Projeto de lista de tarefas desenvolvido com Vue.js, onde é possível
         adicionar, marcar como concluídas e remover tarefas. A aplicação foi
         construída com foco em simplicidade e usabilidade, explorando conceitos
@@ -19,8 +19,8 @@ export const ProjetoTodoList = () => (
 export const ProjetoCalcIMC = () => (
   <Card>
     <LinkBotao href="https://imc-react-tau.vercel.app/" target="_blank">
-      <TituloProjeto>Calculadora de IMC</TituloProjeto>
-      <Paragrafo>
+      <TituloProjeto fontSize={24}>Calculadora de IMC</TituloProjeto>
+      <Paragrafo fontSize={18}>
         Calculadora de IMC desenvolvida com React, que permite inserir peso e
         altura para calcular automaticamente o Índice de Massa Corporal. A
         aplicação apresenta o resultado acompanhado da classificação de acordo

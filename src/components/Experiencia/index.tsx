@@ -6,10 +6,10 @@ import { CardEx, LinkBotaoEx, ListaEx, ListaLi } from './styles'
 export const Experiencia = () => (
   <CardEx>
     <LinkBotaoEx href="https://github.com/l-dhias/ebac_sports" target="_blank">
-      <Titulo fontSize={12}>08/025 __Fim do Projeto</Titulo>
+      <Titulo fontSize={18}>08/025 __Fim do Projeto</Titulo>
 
-      <Titulo fontSize={16}> Ebac_sport</Titulo>
-      <Paragrafo>
+      <Titulo fontSize={24}> Ebac_sport</Titulo>
+      <Paragrafo fontSize={18}>
         Desenvolvi uma aplicação utilizando o Redux Toolkit para garantir uma
         gestão de estado simples e eficiente. O projeto foi estruturado com a
         criação de um slice dedicado ao carrinho, responsável por organizar os
@@ -40,10 +40,10 @@ export const ExperienciaStyled = () => (
       href="https://github.com/l-dhias/ebac_games_redux"
       target="_blank"
     >
-      <Titulo fontSize={12}>09/025 __Fim do Projeto</Titulo>
+      <Titulo fontSize={18}>09/025 __Fim do Projeto</Titulo>
 
-      <Titulo fontSize={16}> Ebac_games_redux</Titulo>
-      <Paragrafo>
+      <Titulo fontSize={24}> Ebac_games_redux</Titulo>
+      <Paragrafo fontSize={18}>
         No projeto Ebac Games Redux, fui responsável pela implementação do
         Styled Components, realizando a migração da estilização em CSS
         tradicional para a abordagem em componentes estilizados. Essa mudança
