@@ -20,14 +20,26 @@ export const Menu = styled.nav`
 `
 
 export const SidebarContainer = styled.div`
-  position: sticky;
+  position: fixed;
   top: 120px;
   left: 0;
+  width: 560px;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* joga o social pro final */
+  align-items: flex-start;
+  padding: 0 16px;
+  margin-left: 250px;
 
   @media (max-width: 768px) {
-    padding-top: 80px;
-    margin-bottom: 80px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 16px 0;
+    margin: 0;
     text-align: center;
+    align-items: center;
   }
 `
 
@@ -46,7 +58,7 @@ export const ListaNav = styled.li`
   }
 `
 export const NavItem = styled.a`
-  font-size: 20px;
+  font-size: 26px;
   text-decoration: none;
   color: #94a3b8;
   cursor: pointer;
@@ -63,6 +75,7 @@ export const ListaSocial = styled.ul`
   padding: 50px 0 0;
   margin: 16px 0;
   list-style: none;
+  margin-top: auto;
 
   li a {
     display: flex;
@@ -70,6 +83,7 @@ export const ListaSocial = styled.ul`
     justify-content: center;
     color: #94a3b8;
     transition: color 0.3s;
+    margin-bottom: 100px;
 
     &:hover {
       color: #fcfcfcff;
@@ -79,5 +93,6 @@ export const ListaSocial = styled.ul`
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top: 24px;
   }
 `

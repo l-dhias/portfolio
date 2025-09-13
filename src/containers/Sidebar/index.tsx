@@ -16,12 +16,12 @@ import {
 export const Sidebar = () => (
   <aside>
     <SidebarContainer>
-      <Titulo fontSize={50}> Leonardo Dias</Titulo>
+      <Titulo fontSize={60}> Leonardo Dias</Titulo>
       <Descricao tipo="secundario" fontSize={24}>
-        Engenheiro Front-End
+        Desenvolvedor Front-End
       </Descricao>
       <Descricao tipo="primario" fontSize={24}>
-        Eu crio experiências digitais acessíveis e perfeitas para a web.
+        Eu crio experiências digitais.
       </Descricao>
       <Menu>
         <ListaNav>
@@ -40,7 +40,7 @@ export const Sidebar = () => (
       <ListaSocial>
         <li>
           <a href="https://github.com/l-dhias" target="_blank" rel="noreferrer">
-            <FaGithub size={28} />
+            <FaGithub size={50} />
           </a>
         </li>
         <li>
@@ -49,7 +49,7 @@ export const Sidebar = () => (
             target="_blank"
             rel="noreferrer"
           >
-            <FaLinkedin size={28} />
+            <FaLinkedin size={50} />
           </a>
         </li>
       </ListaSocial>
